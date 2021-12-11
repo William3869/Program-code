@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap網頁</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">    
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+  </head>
+  <body> 
+    <div id="myCarousel" class="carousel slide">
+      <!-- 輪播指示 -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- 輪播內容 -->
+      <div class="carousel-inner">
+		<div class="item active">
+  		  <img src="photo1.jpg">
+          <div class="carousel-caption">
+            <h1>超值行程－奧地利真善美湖區</h1>
+          </div>          
+        </div>
+		<div class="item">
+          <img src="photo2.jpg">
+          <div class="carousel-caption">
+            <h1>超值行程－奧地利熊布朗宮</h1>
+          </div>
+        </div>
+		<div class="item">
+          <img src="photo3.jpg">
+          <div class="carousel-caption">
+            <h1>超值行程－北海道雪的美術館</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- 輪播控制 -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+  </body>
+</html>
